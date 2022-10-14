@@ -7,7 +7,7 @@ public class PredicateExample {
     // predicates return true or false
     // predicate methods are AND, OR , NEGATE , NOT, EQUAL
 
-    static Predicate<Integer> predicate = (i) -> i%2==0;
+    static Predicate<Integer> predicate = i -> i%2==0;
     static Predicate<Integer> predicate1 = (i) -> i%5==0;
 
     public static boolean predicateAnd(int t){
